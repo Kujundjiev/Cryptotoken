@@ -1,0 +1,9 @@
+await scatter.balanceOf("0x1CBd3b2770909D4e10f157cABC84C7264073C9Ec")
+await scatter.transfer("0x1CBd3b2770909D4e10f157cABC84C7264073C9Ec", amount)
+const amount = ethers.parseUnits("100", 18)
+await scatter.transfer("0x1CBd3b2770909D4e10f157cABC84C7264073C9Ec")
+await scatter.balanceOf("0x1CBd3b2770909D4e10f157cABC84C7264073C9Ec")
+await scatter.balance0f("0x1CBd3b277090D4e010f157cABC84C7264073C9Ec")
+await scatter.name()
+const scatter = await ethers.getContractAt("ScatterToken", "0x5FbDB2315678afecb367f032d93F642f64180aa3")
+.help
